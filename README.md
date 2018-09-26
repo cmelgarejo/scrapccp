@@ -1,3 +1,3 @@
 # scrapccp
 
-Scraps CCP's API site and dumps it's info ¯\_(ツ)_/¯
+Scraps CCP's API site and dumps it's info ¯\\___(ツ)___/¯
