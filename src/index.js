@@ -81,8 +81,8 @@ new Connection(
   }
 
   const escrap = async () => {
-    const qty = process.argv[2] || 9000000
-    const offset = process.argv[3] || 1
+    const qty = (process.argv[2] && parseInt(process.argv[2])) || 9000000
+    const offset = (process.argv[3] && parseInt(process.argv[3])) || 1
     const ci = [...Array(qty).keys()].map(k => k + offset)
     const scrapQueue = createQueue(async (_, cbFunc) => {
       cbFunc()
